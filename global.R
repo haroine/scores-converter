@@ -16,10 +16,19 @@ names(named_available_sports) <- display_sports
 
 sizeSportImage <- 75
 
-renderSportImage <- function(sport) {
+renderSportImage <- function(sport, width=sizeSportImage, height=sizeSportImage) {
   list(src = paste0(sport,".png"),
        contentType = 'image/png',
-       width = sizeSportImage,
-       height = sizeSportImage,
+       width = width,
+       height = height,
        alt = "Sport image")
 }
+
+renderSportImageIcon <- function(sport) {
+  renderSportImage(sport,45,45)
+}
+
+displayScore <- function(scoreVec) {
+  paste(scoreVec[1],"-",scoreVec[2])
+}
+

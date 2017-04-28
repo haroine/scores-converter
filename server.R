@@ -38,7 +38,20 @@ function(input, output) {
         c(home_score,away_score),
         sportInput())
       
-      paste(list_scores) ##TODO: function to paste other sports scores
+      output$sport1img <- renderImage(renderSportImageIcon(other_sports[1]), deleteFile = FALSE)
+      output$sport2img <- renderImage(renderSportImageIcon(other_sports[2]), deleteFile = FALSE)
+      output$sport3img <- renderImage(renderSportImageIcon(other_sports[3]), deleteFile = FALSE)
+      
+      output$namesport1 <- renderText(capitalize(other_sports[1]))
+      output$namesport2 <- renderText(capitalize(other_sports[2]))
+      output$namesport3 <- renderText(capitalize(other_sports[3]))
+      
+      output$scoreSport1 <- renderText(displayScore(list_scores[[1]]))
+      output$scoreSport2 <- renderText(displayScore(list_scores[[2]]))
+      output$scoreSport3 <- renderText(displayScore(list_scores[[3]]))
+      
+      # paste(other_sports, list_scores)
+      paste(" ")
     }
     
   })
