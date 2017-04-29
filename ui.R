@@ -1,7 +1,17 @@
 fluidPage(
   titlePanel("Sports scores converter"),
-  column(12,
-         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat orci nec dignissim facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at ornare eros. Proin bibendum, nunc vel pellentesque dictum, erat eros elementum augue, non sodales elit est vitae est. Phasellus quis nulla ultrices, lacinia nulla non, luctus nibh. Proin eget mattis tellus, sed porta ante. Integer vel dapibus felis, sed scelerisque diam. Quisque pellentesque euismod imperdiet. Nam laoreet, justo et dapibus ultricies, ipsum nisl facilisis eros, sed vulputate velit sem vitae diam. Donec imperdiet interdum felis et consequat. Ut nec consectetur augue. Donec eleifend lobortis tortor, id consectetur purus posuere a."
+  column(11,
+         "This webapp finds an equivalent for any game score in other sports with a statistical rule, using data from NBA, NHL, NFL and Champions League games since the year 2000. The full code of the project is available on ",
+          a(href="https://github.com/haroine/scores-converter","a github page"),
+          "You can find out more about it works on ",
+          a(href="http://nc233.com/2017/04/a-sports-scores-converter-in-shiny/","this blog post"),
+          ". Want to see other sports in this app? Make",
+         a(href="https://github.com/haroine/scores-converter/pulls","a pull request"),
+          "or ping us ",
+          a(href="https://twitter.com/nc233","on twitter"),
+         "or ",
+          a(href="https://framapiaf.org/@nc233","Mastodon"),
+          "!"
   ,style="margin:20px;"),
   sidebarLayout(
   sidebarPanel(
