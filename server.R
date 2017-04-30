@@ -1,10 +1,5 @@
 function(input, output) {
   
-  # output$testimg <- renderUI({
-  #   img(src="test.jpg", width = 20,
-  #       style = "display: block; margin-left: auto; margin-right: auto;")
-  # })
-  
   output$sportimg <- renderImage({
     
     renderSportImage(sportInput())
