@@ -4,7 +4,7 @@ fluidPage(
          "This webapp finds an equivalent for any game score in other sports with a statistical rule, using data from NBA, NHL, NFL and Champions League games since the year 2000. The full code of the project is available on ",
           a(href="https://github.com/haroine/scores-converter","a github page"),
           "You can find out more about it works on ",
-          a(href="http://nc233.com/2017/04/a-sports-scores-converter-in-shiny/","this blog post"),
+          a(href="http://nc233.com/2017/05/a-shiny-app-to-convert-sports-scores/","this blog post"),
           ". Want to see other sports in this app? Make",
          a(href="https://github.com/haroine/scores-converter/pulls","a pull request"),
           "or ping us ",
