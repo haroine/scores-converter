@@ -50,12 +50,12 @@ fluidPage(
                       div(imageOutput("sport3img"),style="display:inline-block; vertical-align:top;"),
                       div(textOutput("namesport3"),style="display:inline-block; vertical-align:top; font-size:130%; margin: 10px;"),
                       div(textOutput("scoreSport3"),style="display:inline-block; vertical-align:top; font-size:130%; margin: 10px;")
-                ,style="margin: 10px; display: block; text-align: left; vertical-align:center; margin:auto;"),
+                ,style="margin: 10px; display: block; text-align: left; margin:auto; height: 50px;"),
                div(
                  div(imageOutput("sport4img"),style="display:inline-block; vertical-align:top;"),
                  div(textOutput("namesport4"),style="display:inline-block; vertical-align:top; font-size:130%; margin: 10px;"),
                  div(textOutput("scoreSport4"),style="display:inline-block; vertical-align:top; font-size:130%; margin: 10px;")
-                 ,style="margin: 10px; display: block; text-align: left; margin:auto; height: 50px;")
+                 ,style="margin: 10px; display: block; text-align: left; vertical-align:center; margin:auto;")
                
              , style="margin: 10px; display: block; text-align: left; margin:auto; height: 50px;"),
              textOutput("sports")
