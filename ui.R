@@ -6,14 +6,14 @@ fluidPage(
          "The full code of the project is available on ",
           a(href="https://github.com/haroine/scores-converter","a github page."),
           "You can find a more elaborate description on how it works on ",
-          a(href="http://nc233.com/2017/05/a-shiny-app-to-convert-sports-scores/","this blog post."),
+          a(href="http://nc233.com/2017/05/a-shiny-app-to-convert-sports-scores/","this blog post, "),
+         "or this 2023", a(href="http://nc233.com/rugby23converter/","this blog post, "),"update",
           "Want to see other sports in this app? Make",
          a(href="https://github.com/haroine/scores-converter/pulls","a pull request"),
           "or ping us ",
           a(href="https://twitter.com/nc233","on twitter"),
          "or ",
-          a(href="https://framapiaf.org/@nc233","Mastodon"),
-          "!"
+          a(href="https://framapiaf.org/@nc233","Mastodon")
   ,style="margin:20px;"),
   sidebarLayout(
   sidebarPanel(
