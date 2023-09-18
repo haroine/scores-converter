@@ -37,6 +37,9 @@ fluidPage(
              h3("Equivalent in other sports:"),br(),
              div(
                div(
+                 div(textOutput("alertText"),style="display:inline-block; vertical-align:top; font-size:80%; margin: 10px;")
+                 ,style="margin: 10px; display: block; text-align: left; margin:auto; height: 10px;"),
+               div(
                       div(imageOutput("sport1img"),style="display:inline-block; vertical-align:top;"),
                       div(textOutput("namesport1"),style="display:inline-block; vertical-align:top; font-size:130%; margin: 10px;"),
                       div(textOutput("scoreSport1"),style="display:inline-block; vertical-align:top; font-size:130%; margin: 10px;")

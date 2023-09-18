@@ -33,6 +33,10 @@ function(input, output) {
         c(home_score,away_score),
         sportInput())
       
+      if( pmax(home_score, away_score) >= 1 ) {
+        output$alertText <- renderText("Test")
+      }
+      
       output$sport1img <- renderImage(renderSportImageIcon(other_sports[1]), deleteFile = FALSE)
       output$sport2img <- renderImage(renderSportImageIcon(other_sports[2]), deleteFile = FALSE)
       output$sport3img <- renderImage(renderSportImageIcon(other_sports[3]), deleteFile = FALSE)
