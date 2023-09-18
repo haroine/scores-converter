@@ -27,12 +27,12 @@ df_football$date <- NULL
 df_rugby$year <- NULL
 
 
-df_forplot <- rbind(df_soccer, df_basketball, df_hockey, df_football, df_rugby)
-# saveRDS(df_forplot, file = "df_forplot.rds")
+df_sports_with_rugby <- rbind(df_soccer, df_basketball, df_hockey, df_football, df_rugby)
+# saveRDS(df_sports_with_rugby, file = "df_sports_with_rugby.rds")
 
 ## Stats
-# load("df_forplot.rds")
-desc_stats <- df_forplot %>% 
+# load("df_sports_with_rugby.rds")
+desc_stats <- df_sports_with_rugby %>% 
   group_by(sport) %>% 
   summarize(avg_diff = mean(abs(diff))
             , med_diff = median(abs(diff))
