@@ -45,4 +45,4 @@ names(rugby) <- c("win","draw","loss")
 list_sports_df[[5]] <- rugby
 names(list_sports_df)[5] <- "rugby"
 
-save(list_sports_df, available_sports, file="converter_data.Rdata")
+# save(list_sports_df, available_sports, file="converter_data.Rdata")
