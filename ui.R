@@ -10,10 +10,8 @@ fluidPage(
          "or this 2023", a(href="http://nc233.com/rugby23converter/","update."),
           "Want to see other sports in this app? Make",
          a(href="https://github.com/haroine/scores-converter/pulls","a pull request"),
-          "or ping us ",
-          a(href="https://twitter.com/nc233","on twitter"),
-         "or ",
-          a(href="https://framapiaf.org/@nc233","Mastodon")
+          "or ping us on",
+          a(href="https://framapiaf.org/@nc233","Mastodon.")
   ,style="margin:20px;"),
   sidebarLayout(
   sidebarPanel(
