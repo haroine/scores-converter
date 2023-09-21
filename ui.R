@@ -7,7 +7,7 @@ fluidPage(
           a(href="https://github.com/haroine/scores-converter","a github page."),
           "You can find a more elaborate description on how it works on ",
           a(href="http://nc233.com/2017/05/a-shiny-app-to-convert-sports-scores/","this blog post, "),
-         "or this 2023", a(href="http://nc233.com/rugby23converter/","update."),
+         "or this 2023", a(href="http://nc233.com/rugby23converter","update."),
           "Want to see other sports in this app? Make",
          a(href="https://github.com/haroine/scores-converter/pulls","a pull request"),
           "or ping us on",
